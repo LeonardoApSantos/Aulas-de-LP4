@@ -1,0 +1,39 @@
+html{
+	background-color: #898599;
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #624CCC;
+}
+.enunciado{
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #FF231C;
+	font-size: 18px;
+}
+.resultado{
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+	color: #1CFF69;
+	font-size: 20px;
+}
+table{
+	width: 80%;
+}
+td{
+	border: outset #CC834C 6px;
+	background-color: #FFE1B8;
+}
+a{
+	color: purple;
+	text-decoration: none;
+}
+li{
+	text-align: justify;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #FF231C;
+}
