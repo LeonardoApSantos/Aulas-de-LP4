@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background-color: lightgray;
+}
+html, body{
+	height: 100%
+}
+label{
+	display: block;
+	font-family: monospace;
+	font-size: 16px;
+}
+input{
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+h1{
+	font-family: monospace;
+	font-size: 32px;
+	color: #00cc66;
+}
+h2{
+	font-family: monospace;
+	font-size: 16px;
+	color: gray;
+	width: 45%;
+	margin: 0 auto;
+	margin-bottom: 5px; 
+}
+a{
+	text-decoration: none;
+	border-left: 4px solid #00cc66;
+	padding: 0 5px;
+	margin-right: 5px;
+	font-family: monospace;
+	font-size: 12px;
+}
+a:link{
+	color: gray;
+}
+a:visited{
+	color: gray;
+}
+a:hover{
+	background-color: gray;
+	color: white;
+}
+#conteudo{
+	min-height: 100%;
+}
+#principal{
+	overflow: auto;
+	padding-bottom: 50px;
+}
+#rodape{
+	background-color: #00cc66;
+	position: relative;
+	height: 50px;
+	margin-top: -50px;
+	clear: both;
+}
+.btn{
+	background: none;
+	border: 3px solid #00cc66;
+	color: #00cc66;
+	border-radius: 10px;
+	margin-top:5px;
+	margin-right: 120px;
+	font-size: 12px;
+	width: 23%;
+}
+.btn:hover{
+	background: #00cc66;
+	color: white;
+}
+.textoInput{
+	margin: 0 auto;
+	text-align: left;
+	width: 165px;
+}
+.form{
+	border-bottom: 1px solid gray;
+	border-radius: 10px;
+	background-color: white; 
+	width: 30%;
+	margin: 85px auto;
+	padding: 15px;
+	text-align: center;
+}
+#textoRodape{
+	color: white;
+	text-align: center;
+	font-size: 14px;
+}
+#cabecalho{
+	border-bottom: 1px solid gray;
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	position: fixed;
+}
+#areaCabecalho{
+	width: 650px;
+	margin: 0 auto;
+}
+#logo{
+	float:left;
+	margin-top: 2px;
+}
+#menu{
+	float:right;
+	margin-top: 13px;
+}
